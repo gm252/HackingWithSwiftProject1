@@ -47,6 +47,38 @@
             </objects>
             <point key="canvasLocation" x="1048.8" y="125.4872563718141"/>
         </scene>
+        <!--Detail View Controller-->
+        <scene sceneID="8LZ-Nl-Uu0">
+            <objects>
+                <viewController storyboardIdentifier="Detail" id="MEC-Ab-oSr" customClass="DetailViewController" customModule="Project1" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="47H-lR-Ndx"/>
+                        <viewControllerLayoutGuide type="bottom" id="2Lh-pM-9TO"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="9dw-pq-0Tc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Pe8-E8-Ayn">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Pe8-E8-Ayn" firstAttribute="leading" secondItem="9dw-pq-0Tc" secondAttribute="leading" id="2Iy-hA-rUc"/>
+                            <constraint firstItem="Pe8-E8-Ayn" firstAttribute="top" secondItem="9dw-pq-0Tc" secondAttribute="top" id="7SH-IQ-dCp"/>
+                            <constraint firstItem="Pe8-E8-Ayn" firstAttribute="bottom" secondItem="2Lh-pM-9TO" secondAttribute="top" id="IeH-xQ-HsM"/>
+                            <constraint firstAttribute="trailing" secondItem="Pe8-E8-Ayn" secondAttribute="trailing" id="YGT-E6-Eb1"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="ImageView" destination="9dw-pq-0Tc" id="1Kr-In-wJ4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pma-1l-10K" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1832.8" y="124.58770614692655"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="oUy-eq-67b">
             <objects>

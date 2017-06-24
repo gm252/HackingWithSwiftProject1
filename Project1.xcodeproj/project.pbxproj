@@ -22,6 +22,7 @@
 		CF4C26CA1EFF04E600E5CCC5 /* nssl0049.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF4C26C01EFF04E600E5CCC5 /* nssl0049.jpg */; };
 		CF4C26CB1EFF04E600E5CCC5 /* nssl0051.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF4C26C11EFF04E600E5CCC5 /* nssl0051.jpg */; };
 		CF4C26CC1EFF04E600E5CCC5 /* nssl0091.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CF4C26C21EFF04E600E5CCC5 /* nssl0091.jpg */; };
+		CF4C26CE1EFF166B00E5CCC5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF4C26CD1EFF166B00E5CCC5 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		CF4C26C01EFF04E600E5CCC5 /* nssl0049.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0049.jpg; sourceTree = "<group>"; };
 		CF4C26C11EFF04E600E5CCC5 /* nssl0051.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0051.jpg; sourceTree = "<group>"; };
 		CF4C26C21EFF04E600E5CCC5 /* nssl0091.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = nssl0091.jpg; sourceTree = "<group>"; };
+		CF4C26CD1EFF166B00E5CCC5 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +78,7 @@
 			children = (
 				CF4C26A61EFEF68000E5CCC5 /* AppDelegate.swift */,
 				CF4C26A81EFEF68000E5CCC5 /* ViewController.swift */,
+				CF4C26CD1EFF166B00E5CCC5 /* DetailViewController.swift */,
 				CF4C26AA1EFEF68000E5CCC5 /* Main.storyboard */,
 				CF4C26AD1EFEF68000E5CCC5 /* Assets.xcassets */,
 				CF4C26AF1EFEF68000E5CCC5 /* LaunchScreen.storyboard */,
@@ -185,6 +188,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF4C26CE1EFF166B00E5CCC5 /* DetailViewController.swift in Sources */,
 				CF4C26A91EFEF68000E5CCC5 /* ViewController.swift in Sources */,
 				CF4C26A71EFEF68000E5CCC5 /* AppDelegate.swift in Sources */,
 			);
